@@ -11,11 +11,17 @@ class App extends React.Component {
       chord: 'C',
       strings: [0, 0, 0, 2]
     }
-
+    this.clickString = this.clickString.bind(this)
   }
 
   clickString(string, fret) {
-    console.log(`clicked string ${string}, fret ${fret}`)
+    let strings = this.state.strings
+    if (fret === strings[string - 1]) {
+      strings[string - 1] = 0;
+    } else {
+      strings[string - 1] = fret;
+    }
+    this.setState({ strings });
   }
 
   componentDidMount() {
