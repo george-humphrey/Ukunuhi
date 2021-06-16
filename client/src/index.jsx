@@ -39,13 +39,13 @@ class App extends React.Component {
         <Fretboard
           strings={this.state.strings}
           click={this.clickString} />
-        <Keyboard />
         <ChordFinder
           root={this.state.root}
           tension={this.state.tension}
           findChord={this.findChord}
           changeRoot={this.changeRoot}
           changeTension={this.changeTension} />
+        <Keyboard />
       </div >
     )
   }
