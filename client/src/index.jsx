@@ -4,53 +4,48 @@ import $ from 'jquery';
 
 import Fretboard from './components/Fretboard.jsx';
 import Keyboard from './components/Keyboard.jsx';
+import ChordFinder from './components/ChordFinder.jsx';
+import helpers from './helpers.js';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      chord: 'C',
-      strings: [0, 0, 0, 3]
+      root: 'Am7',
+      tension: '',
+      strings: [0, 0, 0, 0]
     }
-    this.clickString = this.clickString.bind(this);
-    this.pianofy = this.pianofy.bind(this);
-  }
 
-  clickString(string, fret) {
-    let strings = this.state.strings
-    if (fret === strings[string - 1]) {
-      strings[string - 1] = 0;
-    } else {
-      strings[string - 1] = fret;
-    }
-    this.setState({ strings }, () => this.pianofy());
-
-  }
-
-  pianofy() {
-    // standard tuning (i.e., gCEA)
-    let standardTuning = [7, 0, 4, 9];
-    let strings = this.state.strings;
-    let currentKeys = standardTuning.map((x, i) => {
-      return x + strings[i];
-    })
-
-    $('.key').removeClass('selectedKey');
-    currentKeys.forEach((index) => {
-      $(`#key${index}`).addClass('selectedKey');
-    })
+    this.clickString = helpers.clickString.bind(this);
+    this.pianofy = helpers.pianofy.bind(this);
+    this.notify = helpers.notify.bind(this);
+    this.chordNotFound = helpers.chordNotFound.bind(this);
+    this.findChordFromNotes = helpers.findChordFromNotes.bind(this);
+    this.findStringsFromChord = helpers.findStringsFromChord.bind(this);
+    this.changeRoot = helpers.changeRoot.bind(this);
+    this.changeTension = helpers.changeTension.bind(this);
   }
 
   componentDidMount() {
     this.pianofy();
+    this.findChordFromNotes();
   }
 
   render() {
     return (
       <div id='app'>
-        <h1>Ukunuhi</h1>
-        <Fretboard strings={this.state.strings} click={this.clickString} />
+        <h1>UKUNUHI</h1>
+        <h3>The Ukulele/Piano Translator</h3>
+        <Fretboard
+          strings={this.state.strings}
+          click={this.clickString} />
         <Keyboard />
+        <ChordFinder
+          root={this.state.root}
+          tension={this.state.tension}
+          findChord={this.findChord}
+          changeRoot={this.changeRoot}
+          changeTension={this.changeTension} />
       </div >
     )
   }

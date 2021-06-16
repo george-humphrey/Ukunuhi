@@ -5,8 +5,9 @@
   "author": "George Humphrey",
   "main": "index.js",
   "scripts": {
-    "react-dev": "webpack -d --watch",
-    "server-dev": "nodemon server/index.js"
+    "client-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "seed": "mysql -u root -p < database/schema.sql && node database/seed.js"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -19,6 +20,8 @@
   "dependencies": {
     "express": "^4.15.0",
     "jquery": "^3.1.1",
+    "json-server": "^0.16.3",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.6",
     "path": "^0.12.7",
     "react": "^15.4.2",

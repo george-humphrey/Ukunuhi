@@ -2,6 +2,20 @@ body {
   background: lightblue;
 }
 
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* fretboard */
+
 #fretboard {
   background: url('./img/Fretboard.jpg');
   background-repeat: no-repeat;
@@ -10,7 +24,7 @@ body {
   width: 520px;
   height: 200px;
   padding: 0 19px 0 34px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 .string {
@@ -42,29 +56,30 @@ body {
   padding: 12px 0;
 
   font-family: webdings;
-  font-size: 25px
+  font-size: 25px;
 }
 
+/* keyboard */
 
 #keyboard {
   background: url('./img/Keyboard.jpg');
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 800px;
+  width: 712px;
   height: 200px;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 #blackKeys {
   padding: 3px 0 0 3px;
   height: 120px;
-  width: 800px;
+  width: 712px;
 }
 
 #whiteKeys {
-  height: 120px;
-  width: 800px;
+  height: 74px;
+  width: 712px;
   margin: 0 0 0 3px;
 }
 
@@ -73,7 +88,7 @@ body {
   text-align: center;
   color: green;
   font-family: webdings;
-  font-size: 25px
+  font-size: 25px;
 }
 
 .whiteKey {
@@ -93,7 +108,8 @@ body {
   margin-left: 38px;
 }
 
-#key6, #key13 {
+#key6,
+#key13 {
   margin-left: 73px;
 }
 
@@ -102,7 +118,7 @@ body {
 }
 
 #key15 {
-  margin-left: 25px
+  margin-left: 25px;
 }
 
 #key18 {
@@ -111,4 +127,24 @@ body {
 
 .selectedKey {
   background-color: rgba(203, 186, 72, 0.623);
+}
+
+/* chordfinder */
+
+#chordFinder {
+  margin: 20px auto;
+}
+
+#chord {
+  text-align: center;
+}
+
+#dropContent {
+  margin: 10px auto;
+  width: 150px;
+  background-color: rgba(107, 161, 42, 0.463);
+}
+
+.dropContent {
+  margin: 10px;
 }
