@@ -2,17 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
 
+import Fretboard from './components/Fretboard.jsx';
+
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       chord: 'C',
-      string1: 0,
-      string2: 0,
-      string3: 0,
-      string4: 0
+      strings: [0, 0, 0, 2]
     }
 
+  }
+
+  clickString(string, fret) {
+    console.log(`clicked string ${string}, fret ${fret}`)
   }
 
   componentDidMount() {
@@ -22,6 +25,7 @@ class App extends React.Component {
     return (
       <div id='app'>
         <h1>Ukunuhi</h1>
+        <Fretboard strings={this.state.strings} click={this.clickString} />
       </div >
     )
   }
