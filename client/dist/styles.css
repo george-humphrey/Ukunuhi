@@ -9,6 +9,12 @@ h1 {
   background: rgba(161, 210, 206, 0.518);
 }
 
+h2 {
+  font-size: 75px;
+  margin: 0;
+  padding: 0;
+}
+
 h3 {
   margin: 0;
   padding: 0;

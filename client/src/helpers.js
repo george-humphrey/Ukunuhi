@@ -10,8 +10,13 @@ function clickString(string, fret) {
   this.setState({ strings }, () => {
     this.pianofy();
     this.findChordFromNotes();
+    resetFinder();
   });
+}
 
+function resetFinder() {
+  $('#noChordRoot').prop('selected', true)
+  $('#noChordType').prop('selected', true)
 }
 
 function pianofy() {
