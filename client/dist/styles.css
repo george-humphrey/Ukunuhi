@@ -9,7 +9,8 @@ body {
 
   width: 520px;
   height: 200px;
-  padding: 0 19px 0 34px
+  padding: 0 19px 0 34px;
+  margin: 20px;
 }
 
 .string {
@@ -34,12 +35,80 @@ body {
 }
 
 .stringposition {
+  float: left;
   height: 10px;
   width: 65px;
-  float: left;
   text-align: center;
   padding: 12px 0;
 
   font-family: webdings;
   font-size: 25px
+}
+
+
+#keyboard {
+  background: url('./img/Keyboard.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 800px;
+  height: 200px;
+  margin: 20px;
+}
+
+#blackKeys {
+  padding: 3px 0 0 3px;
+  height: 120px;
+  width: 800px;
+}
+
+#whiteKeys {
+  height: 120px;
+  width: 800px;
+  margin: 0 0 0 3px;
+}
+
+.key {
+  float: left;
+  text-align: center;
+  color: green;
+  font-family: webdings;
+  font-size: 25px
+}
+
+.whiteKey {
+  height: 46px;
+  width: 50.5px;
+  padding: 28px 0 0 0;
+}
+
+.blackKey {
+  height: 35px;
+  width: 28px;
+  margin: 65px 0 0 22.25px;
+  padding: 18px 0 0 0;
+}
+
+#key1 {
+  margin-left: 38px;
+}
+
+#key6, #key13 {
+  margin-left: 73px;
+}
+
+#key8 {
+  margin-left: 22px;
+}
+
+#key15 {
+  margin-left: 25px
+}
+
+#key18 {
+  margin-left: 70px;
+}
+
+.selectedKey {
+  background-color: rgba(203, 186, 72, 0.623);
 }
