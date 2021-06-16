@@ -24,4 +24,17 @@ app.get('/chordsByNotes', (req, res) => {
       res.status(200).send(data).end();
     }
   })
-})
+});
+
+app.get('/stringsByChord', (req, res) => {
+  db.getStringsByChord(req.query, function (err, data) {
+    if (err) {
+      console.log(err);
+      res.status(400).end();
+    } else if (data === undefined) {
+      res.status(404).end();
+    } else {
+      res.status(200).send(data).end();
+    }
+  })
+});

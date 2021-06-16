@@ -1,7 +1,7 @@
 module.exports = [
   {
     "id": 1,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": "",
     "strings": 5343,
     "string1": 5,
@@ -11,7 +11,7 @@ module.exports = [
   },
   {
     "id": 2,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": "m",
     "strings": 4342,
     "string1": 4,
@@ -21,7 +21,7 @@ module.exports = [
   },
   {
     "id": 3,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": 7,
     "strings": 1323,
     "string1": 1,
@@ -31,7 +31,7 @@ module.exports = [
   },
   {
     "id": 4,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": "m7",
     "strings": 1322,
     "string1": 1,
@@ -41,7 +41,7 @@ module.exports = [
   },
   {
     "id": 5,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": "maj7",
     "strings": 1333,
     "string1": 1,
@@ -51,7 +51,7 @@ module.exports = [
   },
   {
     "id": 6,
-    "root": "Ab",
+    "letter": "Ab",
     "suffix": "+",
     "strings": 1003,
     "string1": 1,
@@ -61,7 +61,7 @@ module.exports = [
   },
   {
     "id": 7,
-    "root": "A",
+    "letter": "A",
     "suffix": "",
     "strings": 2100,
     "string1": 2,
@@ -71,7 +71,7 @@ module.exports = [
   },
   {
     "id": 8,
-    "root": "A",
+    "letter": "A",
     "suffix": "m",
     "strings": 2000,
     "string1": 2,
@@ -81,7 +81,7 @@ module.exports = [
   },
   {
     "id": 9,
-    "root": "A",
+    "letter": "A",
     "suffix": 7,
     "strings": "0100",
     "string1": 0,
@@ -91,7 +91,7 @@ module.exports = [
   },
   {
     "id": 10,
-    "root": "A",
+    "letter": "A",
     "suffix": "m7",
     "strings": "0000",
     "string1": 0,
@@ -101,7 +101,7 @@ module.exports = [
   },
   {
     "id": 11,
-    "root": "A",
+    "letter": "A",
     "suffix": "maj7",
     "strings": 1100,
     "string1": 1,
@@ -111,7 +111,7 @@ module.exports = [
   },
   {
     "id": 12,
-    "root": "A",
+    "letter": "A",
     "suffix": "+",
     "strings": 2110,
     "string1": 2,
@@ -121,7 +121,7 @@ module.exports = [
   },
   {
     "id": 13,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": "",
     "strings": 3211,
     "string1": 3,
@@ -131,7 +131,7 @@ module.exports = [
   },
   {
     "id": 14,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": "m",
     "strings": 3111,
     "string1": 3,
@@ -141,7 +141,7 @@ module.exports = [
   },
   {
     "id": 15,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": 7,
     "strings": 1211,
     "string1": 1,
@@ -151,7 +151,7 @@ module.exports = [
   },
   {
     "id": 16,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": "m7",
     "strings": 1111,
     "string1": 1,
@@ -161,7 +161,7 @@ module.exports = [
   },
   {
     "id": 17,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": "maj7",
     "strings": 3210,
     "string1": 3,
@@ -171,7 +171,7 @@ module.exports = [
   },
   {
     "id": 18,
-    "root": "Bb",
+    "letter": "Bb",
     "suffix": "+",
     "strings": 3221,
     "string1": 3,
@@ -181,7 +181,7 @@ module.exports = [
   },
   {
     "id": 19,
-    "root": "B",
+    "letter": "B",
     "suffix": "",
     "strings": 4322,
     "string1": 4,
@@ -191,7 +191,7 @@ module.exports = [
   },
   {
     "id": 20,
-    "root": "B",
+    "letter": "B",
     "suffix": "m",
     "strings": 4222,
     "string1": 4,
@@ -201,7 +201,7 @@ module.exports = [
   },
   {
     "id": 21,
-    "root": "B",
+    "letter": "B",
     "suffix": 7,
     "strings": 2322,
     "string1": 2,
@@ -211,7 +211,7 @@ module.exports = [
   },
   {
     "id": 22,
-    "root": "B",
+    "letter": "B",
     "suffix": "m7",
     "strings": 2222,
     "string1": 2,
@@ -221,7 +221,7 @@ module.exports = [
   },
   {
     "id": 23,
-    "root": "B",
+    "letter": "B",
     "suffix": "maj7",
     "strings": 4321,
     "string1": 4,
@@ -231,7 +231,7 @@ module.exports = [
   },
   {
     "id": 24,
-    "root": "B",
+    "letter": "B",
     "suffix": "+",
     "strings": "0332",
     "string1": 0,
@@ -241,7 +241,7 @@ module.exports = [
   },
   {
     "id": 25,
-    "root": "C",
+    "letter": "C",
     "suffix": "",
     "strings": "0003",
     "string1": 0,
@@ -251,7 +251,7 @@ module.exports = [
   },
   {
     "id": 26,
-    "root": "C",
+    "letter": "C",
     "suffix": 7,
     "strings": "0001",
     "string1": 0,
@@ -261,7 +261,7 @@ module.exports = [
   },
   {
     "id": 27,
-    "root": "C",
+    "letter": "C",
     "suffix": "maj7",
     "strings": "0002",
     "string1": 0,
@@ -271,7 +271,7 @@ module.exports = [
   },
   {
     "id": 28,
-    "root": "C",
+    "letter": "C",
     "suffix": "m",
     "strings": "0333",
     "string1": 0,
@@ -281,7 +281,7 @@ module.exports = [
   },
   {
     "id": 29,
-    "root": "C",
+    "letter": "C",
     "suffix": "m7",
     "strings": 3333,
     "string1": 3,
@@ -291,7 +291,7 @@ module.exports = [
   },
   {
     "id": 30,
-    "root": "C",
+    "letter": "C",
     "suffix": "+",
     "strings": 1003,
     "string1": 1,
@@ -301,7 +301,7 @@ module.exports = [
   },
   {
     "id": 31,
-    "root": "Db",
+    "letter": "Db",
     "suffix": "",
     "strings": 1114,
     "string1": 1,
@@ -311,7 +311,7 @@ module.exports = [
   },
   {
     "id": 32,
-    "root": "Db",
+    "letter": "Db",
     "suffix": 7,
     "strings": 1112,
     "string1": 1,
@@ -321,7 +321,7 @@ module.exports = [
   },
   {
     "id": 33,
-    "root": "Db",
+    "letter": "Db",
     "suffix": "maj7",
     "strings": 1113,
     "string1": 1,
@@ -331,7 +331,7 @@ module.exports = [
   },
   {
     "id": 34,
-    "root": "Db",
+    "letter": "Db",
     "suffix": "m",
     "strings": 1333,
     "string1": 1,
@@ -341,7 +341,7 @@ module.exports = [
   },
   {
     "id": 35,
-    "root": "Db",
+    "letter": "Db",
     "suffix": "m7",
     "strings": 1442,
     "string1": 1,
@@ -351,7 +351,7 @@ module.exports = [
   },
   {
     "id": 36,
-    "root": "Db",
+    "letter": "Db",
     "suffix": "+",
     "strings": 2110,
     "string1": 2,
@@ -361,7 +361,7 @@ module.exports = [
   },
   {
     "id": 37,
-    "root": "D",
+    "letter": "D",
     "suffix": "",
     "strings": 2220,
     "string1": 2,
@@ -371,7 +371,7 @@ module.exports = [
   },
   {
     "id": 38,
-    "root": "D",
+    "letter": "D",
     "suffix": 7,
     "strings": 2223,
     "string1": 2,
@@ -381,7 +381,7 @@ module.exports = [
   },
   {
     "id": 39,
-    "root": "D",
+    "letter": "D",
     "suffix": "maj7",
     "strings": 2224,
     "string1": 2,
@@ -391,7 +391,7 @@ module.exports = [
   },
   {
     "id": 40,
-    "root": "D",
+    "letter": "D",
     "suffix": "m",
     "strings": 2210,
     "string1": 2,
@@ -401,7 +401,7 @@ module.exports = [
   },
   {
     "id": 41,
-    "root": "D",
+    "letter": "D",
     "suffix": "m7",
     "strings": 2214,
     "string1": 2,
@@ -411,7 +411,7 @@ module.exports = [
   },
   {
     "id": 42,
-    "root": "D",
+    "letter": "D",
     "suffix": "+",
     "strings": 3221,
     "string1": 3,
@@ -421,7 +421,7 @@ module.exports = [
   },
   {
     "id": 43,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": "",
     "strings": "0331",
     "string1": 0,
@@ -431,7 +431,7 @@ module.exports = [
   },
   {
     "id": 44,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": 7,
     "strings": 3331,
     "string1": 3,
@@ -441,7 +441,7 @@ module.exports = [
   },
   {
     "id": 45,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": "maj7",
     "strings": 3335,
     "string1": 3,
@@ -451,7 +451,7 @@ module.exports = [
   },
   {
     "id": 46,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": "m",
     "strings": 3321,
     "string1": 3,
@@ -461,7 +461,7 @@ module.exports = [
   },
   {
     "id": 47,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": "m7",
     "strings": 3121,
     "string1": 3,
@@ -471,7 +471,7 @@ module.exports = [
   },
   {
     "id": 48,
-    "root": "Eb",
+    "letter": "Eb",
     "suffix": "+",
     "strings": "0443",
     "string1": 0,
@@ -481,7 +481,7 @@ module.exports = [
   },
   {
     "id": 49,
-    "root": "E",
+    "letter": "E",
     "suffix": "",
     "strings": 4442,
     "string1": 4,
@@ -491,7 +491,7 @@ module.exports = [
   },
   {
     "id": 50,
-    "root": "E",
+    "letter": "E",
     "suffix": 7,
     "strings": 1202,
     "string1": 1,
@@ -501,7 +501,7 @@ module.exports = [
   },
   {
     "id": 51,
-    "root": "E",
+    "letter": "E",
     "suffix": "maj7",
     "strings": 1302,
     "string1": 1,
@@ -511,7 +511,7 @@ module.exports = [
   },
   {
     "id": 52,
-    "root": "E",
+    "letter": "E",
     "suffix": "m",
     "strings": "0432",
     "string1": 0,
@@ -521,7 +521,7 @@ module.exports = [
   },
   {
     "id": 53,
-    "root": "E",
+    "letter": "E",
     "suffix": "m7",
     "strings": "0202",
     "string1": 0,
@@ -531,7 +531,7 @@ module.exports = [
   },
   {
     "id": 54,
-    "root": "E",
+    "letter": "E",
     "suffix": "+",
     "strings": 1003,
     "string1": 1,
@@ -541,7 +541,7 @@ module.exports = [
   },
   {
     "id": 55,
-    "root": "F",
+    "letter": "F",
     "suffix": "",
     "strings": 2010,
     "string1": 2,
@@ -551,7 +551,7 @@ module.exports = [
   },
   {
     "id": 56,
-    "root": "F",
+    "letter": "F",
     "suffix": 7,
     "strings": 2310,
     "string1": 2,
@@ -561,7 +561,7 @@ module.exports = [
   },
   {
     "id": 57,
-    "root": "F",
+    "letter": "F",
     "suffix": "maj7",
     "strings": 2413,
     "string1": 2,
@@ -571,7 +571,7 @@ module.exports = [
   },
   {
     "id": 58,
-    "root": "F",
+    "letter": "F",
     "suffix": "m",
     "strings": 1013,
     "string1": 1,
@@ -581,7 +581,7 @@ module.exports = [
   },
   {
     "id": 59,
-    "root": "F",
+    "letter": "F",
     "suffix": "m7",
     "strings": 1313,
     "string1": 1,
@@ -591,7 +591,7 @@ module.exports = [
   },
   {
     "id": 60,
-    "root": "F",
+    "letter": "F",
     "suffix": "+",
     "strings": 2110,
     "string1": 2,
@@ -601,7 +601,7 @@ module.exports = [
   },
   {
     "id": 61,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": "",
     "strings": 3121,
     "string1": 3,
@@ -611,7 +611,7 @@ module.exports = [
   },
   {
     "id": 62,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": 7,
     "strings": 3424,
     "string1": 3,
@@ -621,7 +621,7 @@ module.exports = [
   },
   {
     "id": 63,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": "maj7",
     "strings": 3524,
     "string1": 3,
@@ -631,7 +631,7 @@ module.exports = [
   },
   {
     "id": 64,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": "m",
     "strings": 2120,
     "string1": 2,
@@ -641,7 +641,7 @@ module.exports = [
   },
   {
     "id": 65,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": "m7",
     "strings": 2424,
     "string1": 2,
@@ -651,7 +651,7 @@ module.exports = [
   },
   {
     "id": 66,
-    "root": "Gb",
+    "letter": "Gb",
     "suffix": "+",
     "strings": 3221,
     "string1": 3,
@@ -661,7 +661,7 @@ module.exports = [
   },
   {
     "id": 67,
-    "root": "G",
+    "letter": "G",
     "suffix": "",
     "strings": "0232",
     "string1": 0,
@@ -671,7 +671,7 @@ module.exports = [
   },
   {
     "id": 68,
-    "root": "G",
+    "letter": "G",
     "suffix": 7,
     "strings": "0212",
     "string1": 0,
@@ -681,7 +681,7 @@ module.exports = [
   },
   {
     "id": 69,
-    "root": "G",
+    "letter": "G",
     "suffix": "maj7",
     "strings": "0222",
     "string1": 0,
@@ -691,7 +691,7 @@ module.exports = [
   },
   {
     "id": 70,
-    "root": "G",
+    "letter": "G",
     "suffix": "m",
     "strings": "0231",
     "string1": 0,
@@ -701,7 +701,7 @@ module.exports = [
   },
   {
     "id": 71,
-    "root": "G",
+    "letter": "G",
     "suffix": "m7",
     "strings": "0211",
     "string1": 0,
@@ -711,7 +711,7 @@ module.exports = [
   },
   {
     "id": 72,
-    "root": "G",
+    "letter": "G",
     "suffix": "+",
     "strings": "0332",
     "string1": 0,
@@ -721,7 +721,7 @@ module.exports = [
   },
   {
     "id": 73,
-    "root": "G#",
+    "letter": "G#",
     "suffix": "",
     "strings": 5343,
     "string1": 5,
@@ -731,7 +731,7 @@ module.exports = [
   },
   {
     "id": 74,
-    "root": "G#",
+    "letter": "G#",
     "suffix": "m",
     "strings": 4342,
     "string1": 4,
@@ -741,7 +741,7 @@ module.exports = [
   },
   {
     "id": 75,
-    "root": "G#",
+    "letter": "G#",
     "suffix": 7,
     "strings": 1323,
     "string1": 1,
@@ -751,7 +751,7 @@ module.exports = [
   },
   {
     "id": 76,
-    "root": "G#",
+    "letter": "G#",
     "suffix": "m7",
     "strings": 1322,
     "string1": 1,
@@ -761,7 +761,7 @@ module.exports = [
   },
   {
     "id": 77,
-    "root": "G#",
+    "letter": "G#",
     "suffix": "maj7",
     "strings": 1333,
     "string1": 1,
@@ -771,7 +771,7 @@ module.exports = [
   },
   {
     "id": 78,
-    "root": "G#",
+    "letter": "G#",
     "suffix": "+",
     "strings": 1003,
     "string1": 1,
@@ -781,7 +781,7 @@ module.exports = [
   },
   {
     "id": 79,
-    "root": "A#",
+    "letter": "A#",
     "suffix": "",
     "strings": 3211,
     "string1": 3,
@@ -791,7 +791,7 @@ module.exports = [
   },
   {
     "id": 80,
-    "root": "A#",
+    "letter": "A#",
     "suffix": "m",
     "strings": 3111,
     "string1": 3,
@@ -801,7 +801,7 @@ module.exports = [
   },
   {
     "id": 81,
-    "root": "A#",
+    "letter": "A#",
     "suffix": 7,
     "strings": 1211,
     "string1": 1,
@@ -811,7 +811,7 @@ module.exports = [
   },
   {
     "id": 82,
-    "root": "A#",
+    "letter": "A#",
     "suffix": "m7",
     "strings": 1111,
     "string1": 1,
@@ -821,7 +821,7 @@ module.exports = [
   },
   {
     "id": 83,
-    "root": "A#",
+    "letter": "A#",
     "suffix": "maj7",
     "strings": 3210,
     "string1": 3,
@@ -831,7 +831,7 @@ module.exports = [
   },
   {
     "id": 84,
-    "root": "A#",
+    "letter": "A#",
     "suffix": "+",
     "strings": 3221,
     "string1": 3,
@@ -841,7 +841,7 @@ module.exports = [
   },
   {
     "id": 85,
-    "root": "C#",
+    "letter": "C#",
     "suffix": "",
     "strings": 1114,
     "string1": 1,
@@ -851,7 +851,7 @@ module.exports = [
   },
   {
     "id": 86,
-    "root": "C#",
+    "letter": "C#",
     "suffix": "m",
     "strings": 1112,
     "string1": 1,
@@ -861,7 +861,7 @@ module.exports = [
   },
   {
     "id": 87,
-    "root": "C#",
+    "letter": "C#",
     "suffix": 7,
     "strings": 1113,
     "string1": 1,
@@ -871,7 +871,7 @@ module.exports = [
   },
   {
     "id": 88,
-    "root": "C#",
+    "letter": "C#",
     "suffix": "m7",
     "strings": 1333,
     "string1": 1,
@@ -881,7 +881,7 @@ module.exports = [
   },
   {
     "id": 89,
-    "root": "C#",
+    "letter": "C#",
     "suffix": "maj7",
     "strings": 1442,
     "string1": 1,
@@ -891,7 +891,7 @@ module.exports = [
   },
   {
     "id": 90,
-    "root": "C#",
+    "letter": "C#",
     "suffix": "+",
     "strings": 2110,
     "string1": 2,
@@ -901,7 +901,7 @@ module.exports = [
   },
   {
     "id": 91,
-    "root": "D#",
+    "letter": "D#",
     "suffix": "",
     "strings": "0331",
     "string1": 0,
@@ -911,7 +911,7 @@ module.exports = [
   },
   {
     "id": 92,
-    "root": "D#",
+    "letter": "D#",
     "suffix": "m",
     "strings": 3331,
     "string1": 3,
@@ -921,7 +921,7 @@ module.exports = [
   },
   {
     "id": 93,
-    "root": "D#",
+    "letter": "D#",
     "suffix": 7,
     "strings": 3335,
     "string1": 3,
@@ -931,7 +931,7 @@ module.exports = [
   },
   {
     "id": 94,
-    "root": "D#",
+    "letter": "D#",
     "suffix": "m7",
     "strings": 3321,
     "string1": 3,
@@ -941,7 +941,7 @@ module.exports = [
   },
   {
     "id": 95,
-    "root": "D#",
+    "letter": "D#",
     "suffix": "maj7",
     "strings": 3121,
     "string1": 3,
@@ -951,7 +951,7 @@ module.exports = [
   },
   {
     "id": 96,
-    "root": "D#",
+    "letter": "D#",
     "suffix": "+",
     "strings": "0443",
     "string1": 0,
@@ -961,7 +961,7 @@ module.exports = [
   },
   {
     "id": 97,
-    "root": "F#",
+    "letter": "F#",
     "suffix": "",
     "strings": 3121,
     "string1": 3,
@@ -971,7 +971,7 @@ module.exports = [
   },
   {
     "id": 98,
-    "root": "F#",
+    "letter": "F#",
     "suffix": "m",
     "strings": 3424,
     "string1": 3,
@@ -981,7 +981,7 @@ module.exports = [
   },
   {
     "id": 99,
-    "root": "F#",
+    "letter": "F#",
     "suffix": 7,
     "strings": 3524,
     "string1": 3,
@@ -991,7 +991,7 @@ module.exports = [
   },
   {
     "id": 100,
-    "root": "F#",
+    "letter": "F#",
     "suffix": "m7",
     "strings": 2120,
     "string1": 2,
@@ -1001,7 +1001,7 @@ module.exports = [
   },
   {
     "id": 101,
-    "root": "F#",
+    "letter": "F#",
     "suffix": "maj7",
     "strings": 2424,
     "string1": 2,
@@ -1011,7 +1011,7 @@ module.exports = [
   },
   {
     "id": 102,
-    "root": "F#",
+    "letter": "F#",
     "suffix": "+",
     "strings": 3221,
     "string1": 3,

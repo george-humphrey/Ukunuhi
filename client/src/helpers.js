@@ -68,8 +68,8 @@ function findChordFromNotes() {
     dataType: 'json',
     data: { notes },
     error: (err) => {
-      console.log('error in ajax get to /chordsByNotes api');
-      console.log(err)
+      console.log('error in get to /chordsByNotes');
+      console.log(err);
       this.chordNotFound();
     },
     success: (data) => {
@@ -79,28 +79,42 @@ function findChordFromNotes() {
         this.setState({
           root: data[0].letter,
           tension: data[0].suffix
-        })
+        });
       }
     }
-  })
+  });
 }
 
 function findStringsFromChord() {
   let root = this.state.root;
   let tension = this.state.tension;
-  console.log(root, tension);
+
+  $.ajax({
+    type: 'GET',
+    url: '/stringsByChord',
+    dataType: 'json',
+    data: { root, tension },
+    error: (err) => {
+      console.log('error in get to /chordsByNotes');
+      console.log(err);
+      this.chordNotFound();
+    },
+    success: (data) => {
+      let strings = [data[0].string1, data[0].string2, data[0].string3, data[0].string4];
+      console.log(strings)
+      this.setState({strings}, this.pianofy);
+      }
+  });
 }
 
 function changeRoot() {
   let root = $('#rootDropdown').val();
-  console.log(root)
-  this.setState({ root }, this.findChord);
+  this.setState({ root }, this.findStringsFromChord);
 }
 
 function changeTension() {
   let tension = $('#tenseDropdown').val();
-  console.log(tension)
-  this.setState({ tension }, this.findChord);
+  this.setState({ tension }, this.findStringsFromChord);
 }
 
 module.exports = { clickString, pianofy, notify, chordNotFound, findChordFromNotes, findStringsFromChord, changeRoot, changeTension }

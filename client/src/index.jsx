@@ -11,9 +11,9 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      root: 'Am7',
+      root: 'C',
       tension: '',
-      strings: [0, 0, 0, 0]
+      strings: [0, 0, 0, 3]
     }
 
     this.clickString = helpers.clickString.bind(this);
