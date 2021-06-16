@@ -1,17 +1,19 @@
 body {
-  background: lightblue;
+  background: rgb(191, 203, 202) url('./img/wood.jpg');
 }
 
 h1 {
-  margin: 0;
+  margin: 10px 0 0 0;
   padding: 0;
   text-align: center;
+  background: rgba(161, 210, 206, 0.518);
 }
 
 h3 {
   margin: 0;
   padding: 0;
   text-align: center;
+  background: rgba(161, 210, 206, 0.518);
 }
 
 /* fretboard */
@@ -21,9 +23,11 @@ h3 {
   background-repeat: no-repeat;
   background-size: contain;
 
-  width: 520px;
+  border: rgba(161, 210, 206, 0.518) 4px solid;
+
+  width: 532px;
   height: 200px;
-  padding: 0 19px 0 34px;
+  padding: 0 0 0 33px;
   margin: 20px auto;
 }
 
@@ -51,9 +55,10 @@ h3 {
 .stringposition {
   float: left;
   height: 10px;
-  width: 65px;
+  width: 63px;
   text-align: center;
   padding: 12px 0;
+  margin: 0 1.25px;
 
   font-family: webdings;
   font-size: 25px;
@@ -65,6 +70,8 @@ h3 {
   background: url('./img/Keyboard.jpg');
   background-repeat: no-repeat;
   background-size: contain;
+
+  border: rgba(161, 210, 206, 0.518) 4px solid;
 
   width: 712px;
   height: 200px;
@@ -142,7 +149,7 @@ h3 {
 #dropContent {
   margin: 10px auto;
   width: 150px;
-  background-color: rgba(107, 161, 42, 0.463);
+  background-color: rgba(161, 210, 206, 0.518);
 }
 
 .dropContent {
