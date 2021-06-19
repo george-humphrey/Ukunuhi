@@ -2,10 +2,6 @@
 
 Ukulele-Piano Translator
 
-# Flight Multitracker
-
-Allows tracking of multiple flights from different airlines
-
 ## Setup
 
 1. Clone code from GitHub
