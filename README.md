@@ -11,7 +11,9 @@ Ukulele-Piano Translator
 2. Database Setup
    a. Insert correct MySQL credentials in **database/config_example.js**
    b. Rename **config_exampl.js** to **config.js**
-   `shell $ npm run seed `
+   ```shell 
+   $ npm run seed
+   ```
 3. In the terminal run:
    ```shell
    $ npm run client
